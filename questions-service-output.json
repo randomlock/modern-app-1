@@ -1,0 +1,42 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-2:980701167484:stack/MythicalMysfitsQuestionsService-Stack/c7baca50-3dd4-11ea-8b3d-065ddb117676", 
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }, 
+            "Description": "A stack that gives mythicalmysfits.com users the ability to submit a question to the Mythical Mysfits team regarding one of the mysfits.", 
+            "Parameters": [
+                {
+                    "ParameterValue": "abdullahh546@gmail.com", 
+                    "ParameterKey": "AdministratorEmailAddress"
+                }
+            ], 
+            "Tags": [], 
+            "Outputs": [
+                {
+                    "Description": "REPLACE_ME_QUESTIONS_API_ENDPOINT", 
+                    "OutputKey": "QuestionsApiEndpoint", 
+                    "OutputValue": "https://ht44eugm2a.execute-api.us-east-2.amazonaws.com/prod"
+                }, 
+                {
+                    "Description": "REPLACE_ME_QUESTIONS_REST_API_ID", 
+                    "OutputKey": "QuestionsRestApiId", 
+                    "OutputValue": "ht44eugm2a"
+                }
+            ], 
+            "EnableTerminationProtection": false, 
+            "CreationTime": "2020-01-23T11:37:48.178Z", 
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ], 
+            "StackName": "MythicalMysfitsQuestionsService-Stack", 
+            "NotificationARNs": [], 
+            "StackStatus": "CREATE_COMPLETE", 
+            "DisableRollback": false, 
+            "RollbackConfiguration": {}, 
+            "ChangeSetId": "arn:aws:cloudformation:us-east-2:980701167484:changeSet/awscli-cloudformation-package-deploy-1579779468/2d66397f-3c21-4a02-a3ca-6f56616d6d38", 
+            "LastUpdatedTime": "2020-01-23T11:37:53.434Z"
+        }
+    ]
+}
